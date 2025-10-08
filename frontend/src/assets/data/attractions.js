@@ -3,7 +3,7 @@ export const attractions = [
   {
     id: "attr-1",
     title: "Shore Temple Mamallapuram",
-    photo: "/src/assets/images/Attractions/1-shore-temple-mamallapuram-2-attr-nearby.jpeg",
+    photo: "/assets/images/Attractions/1-shore-temple-mamallapuram-2-attr-nearby.jpeg",
     desc: "Ancient rock-cut temples showcasing magnificent Pallava architecture. Built along the scenic Bay of Bengal coastline, these 7th-century structures represent one of India's most remarkable UNESCO World Heritage Sites.",
     price: 2500,
     maxGroupSize: 15,
@@ -30,7 +30,7 @@ export const attractions = [
   {
     id: "attr-2",
     title: "Golden Temple",
-    photo: "/src/assets/images/Attractions/1-sri-harmandir-sahib-(golden-temple)-amritsar-punjab-attr-nearby.jpeg",
+    photo: "/assets/images/Attractions/1-sri-harmandir-sahib-(golden-temple)-amritsar-punjab-attr-nearby.jpeg",
     desc: "The holiest shrine of Sikhism, covered in pure gold. Surrounded by the sacred Amrit Sarovar waters, this magnificent temple serves free meals to thousands of visitors daily through its community kitchen.",
     price: 3200,
     maxGroupSize: 20,
@@ -57,7 +57,7 @@ export const attractions = [
   {
     id: "attr-3",
     title: "Anjuna Beach",
-    photo: "/src/assets/images/Attractions/anjuna-beach-goa-goa-anjuna-beach--goa-1-attr-nearby.jpeg",
+    photo: "/assets/images/Attractions/anjuna-beach-goa-goa-anjuna-beach--goa-1-attr-nearby.jpeg",
     desc: "Famous beach destination with vibrant nightlife scene. Known for its scenic beauty and water sports, Anjuna Beach offers the perfect blend of relaxation and adventure in tropical Goa.",
     price: 4800,
     maxGroupSize: 12,
@@ -79,7 +79,7 @@ export const attractions = [
   {
     id: "attr-4",
     title: "Bangaram Island",
-    photo: "/src/assets/images/Attractions/bangaram-kavaratti-lakshwadeep-1-attr-nearby.jpeg",
+    photo: "/assets/images/Attractions/bangaram-kavaratti-lakshwadeep-1-attr-nearby.jpeg",
     desc: "Pristine coral island paradise in beautiful Lakshadweep. Featuring crystal clear turquoise waters, this untouched destination offers the ultimate tropical escape with world-class diving and snorkeling.",
     price: 4500,
     maxGroupSize: 8,
@@ -101,7 +101,7 @@ export const attractions = [
   {
     id: "attr-5",
     title: "Charminar",
-    photo: "/src/assets/images/Attractions/charminar-hyderabad-telangana-1-attr-nearby.jpeg",
+    photo: "/assets/images/Attractions/charminar-hyderabad-telangana-1-attr-nearby.jpeg",
     desc: "Iconic monument and symbol of Hyderabad's rich heritage. Built in 1591, this stunning Islamic architecture masterpiece stands as a testament to the city's glorious Qutb Shahi dynasty.",
     price: 1800,
     maxGroupSize: 25,
@@ -123,7 +123,7 @@ export const attractions = [
   {
     id: "attr-6",
     title: "Dal Lake",
-    photo: "/src/assets/images/Attractions/dal-lake-srinagar-jammu-and-kashmir-1-attr-nearby.jpeg",
+    photo: "/assets/images/Attractions/dal-lake-srinagar-jammu-and-kashmir-1-attr-nearby.jpeg",
     desc: "Stunning lake surrounded by majestic Himalayan mountains. Known for its floating houseboats and vibrant floating markets, Dal Lake offers an unforgettable Kashmir experience.",
     price: 3800,
     maxGroupSize: 10,
@@ -145,7 +145,7 @@ export const attractions = [
   {
     id: "attr-7",
     title: "Ellora Caves",
-    photo: "/src/assets/images/Attractions/ellora-caves-aurangabad-maharashtra-1-attr-nearby.jpeg",
+    photo: "/assets/images/Attractions/ellora-caves-aurangabad-maharashtra-1-attr-nearby.jpeg",
     desc: "Magnificent rock-cut caves showcasing religious harmony. These UNESCO World Heritage caves feature Hindu, Buddhist, and Jain temples carved into solid rock over centuries.",
     price: 2400,
     maxGroupSize: 18,
@@ -167,7 +167,7 @@ export const attractions = [
   {
     id: "attr-8",
     title: "Fort Kochi",
-    photo: "/src/assets/images/Attractions/fort-kochi-kochi-kerala-1-attr-nearby.jpeg",
+    photo: "/assets/images/Attractions/fort-kochi-kochi-kerala-1-attr-nearby.jpeg",
     desc: "Historic port city with rich colonial heritage and culture. Fort Kochi blends Portuguese, Dutch, and British influences with traditional Kerala architecture and famous Chinese fishing nets.",
     price: 2800,
     maxGroupSize: 15,
@@ -189,7 +189,7 @@ export const attractions = [
   {
     id: "attr-9",
     title: "Gateway of India",
-    photo: "/src/assets/images/Attractions/gateway-of-india-mumbai-maharashtra-1-attr-nearby.jpeg",
+    photo: "/assets/images/Attractions/gateway-of-india-mumbai-maharashtra-1-attr-nearby.jpeg",
     desc: "Iconic archway overlooking the majestic Arabian Sea. Built to commemorate the visit of King George V, this Indo-Saracenic monument stands as Mumbai's most recognizable landmark.",
     price: 1200,
     maxGroupSize: 30,
@@ -211,7 +211,7 @@ export const attractions = [
   {
     id: "attr-10",
     title: "Goa Beaches",
-    photo: "/src/assets/images/Attractions/goa-beach-goa-1-attr-nearby.jpeg",
+    photo: "/assets/images/Attractions/goa-beach-goa-1-attr-nearby.jpeg",
     desc: "Tropical paradise with pristine beaches and Portuguese heritage. Goa offers the perfect combination of sun, sand, sea, and vibrant culture with its world-famous beaches and colonial architecture.",
     price: 5200,
     maxGroupSize: 12,
@@ -233,7 +233,7 @@ export const attractions = [
   {
     id: "attr-11",
     title: "Hampi Ruins",
-    photo: "/src/assets/images/Attractions/hampi-ballari-karnataka-1-attr-nearby.jpeg",
+    photo: "/assets/images/Attractions/hampi-ballari-karnataka-1-attr-nearby.jpeg",
     desc: "Ancient Vijayanagara Empire capital with stunning ruins and landscapes. This UNESCO World Heritage Site showcases magnificent temples, royal complexes, and unique boulder formations.",
     price: 2600,
     maxGroupSize: 20,
@@ -255,7 +255,7 @@ export const attractions = [
   {
     id: "attr-12",
     title: "Har Ki Pauri",
-    photo: "/src/assets/images/Attractions/har-ki-pauri-haridwar1-attr-nearby.jpeg",
+    photo: "/assets/images/Attractions/har-ki-pauri-haridwar1-attr-nearby.jpeg",
     desc: "Sacred ghat on the holy Ganges river where evening aarti ceremonies create a magical spiritual atmosphere. This most revered spot in Haridwar attracts pilgrims from across the world.",
     price: 2000,
     maxGroupSize: 25,
@@ -277,7 +277,7 @@ export const attractions = [
   {
     id: "attr-13",
     title: "Hawa Mahal",
-    photo: "/src/assets/images/Attractions/hawa-mahal-jaipur-rajasthan-1-attr-nearby.jpeg",
+    photo: "/assets/images/Attractions/hawa-mahal-jaipur-rajasthan-1-attr-nearby.jpeg",
     desc: "Palace of Winds with intricate lattice work and architectural brilliance. This five-story pink sandstone masterpiece features 953 beautifully carved windows, showcasing Rajput architecture at its finest.",
     price: 2300,
     maxGroupSize: 22,
@@ -299,7 +299,7 @@ export const attractions = [
   {
     id: "attr-14",
     title: "Kamakhya Temple",
-    photo: "/src/assets/images/Attractions/kamakhya-temple-dispur-assam-1-attr-nearby.jpeg",
+    photo: "/assets/images/Attractions/kamakhya-temple-dispur-assam-1-attr-nearby.jpeg",
     desc: "One of the oldest Shakti Peethas dedicated to Goddess Kamakhya. This ancient temple atop Nilachal Hill is a powerful center of tantric worship and divine feminine energy.",
     price: 2700,
     maxGroupSize: 15,
@@ -321,7 +321,7 @@ export const attractions = [
   {
     id: "attr-15",
     title: "Mahabodhi Temple",
-    photo: "/src/assets/images/Attractions/mahabodhi-temple-gaya-bihar-1-attr-nearby.jpeg",
+    photo: "/assets/images/Attractions/mahabodhi-temple-gaya-bihar-1-attr-nearby.jpeg",
     desc: "Sacred Buddhist temple where Buddha attained enlightenment under the sacred Bodhi tree. This UNESCO World Heritage Site is one of Buddhism's most important pilgrimage destinations worldwide.",
     price: 2100,
     maxGroupSize: 18,
@@ -343,7 +343,7 @@ export const attractions = [
   {
     id: "attr-16",
     title: "Naida Caves",
-    photo: "/src/assets/images/Attractions/naida-caves-diu-daman-&-diu-1-attr-nearby.jpeg",
+    photo: "/assets/images/Attractions/naida-caves-diu-daman-&-diu-1-attr-nearby.jpeg",
     desc: "Mysterious network of caves formed by water erosion over centuries. These naturally carved limestone caves offer a unique photographic experience with stunning rock formations and hidden chambers.",
     price: 1900,
     maxGroupSize: 12,
@@ -365,7 +365,7 @@ export const attractions = [
   {
     id: "attr-17",
     title: "Red Fort",
-    photo: "/src/assets/images/Attractions/red-fort-delhi-attr-nearby.jpeg",
+    photo: "/assets/images/Attractions/red-fort-delhi-attr-nearby.jpeg",
     desc: "Magnificent Mughal fortress and UNESCO World Heritage Site symbolizing India's rich history. This massive red sandstone complex served as the main residence of the Mughal emperors for nearly 200 years.",
     price: 1500,
     maxGroupSize: 30,
@@ -387,7 +387,7 @@ export const attractions = [
   {
     id: "attr-18",
     title: "Sanchi Stupa",
-    photo: "/src/assets/images/Attractions/sanchi-stupa-bhopal-madhya-pradesh-1-attr-nearby.jpeg",
+    photo: "/assets/images/Attractions/sanchi-stupa-bhopal-madhya-pradesh-1-attr-nearby.jpeg",
     desc: "Ancient Buddhist complex with hemispherical stone structures built by Emperor Ashoka. This UNESCO World Heritage Site represents one of India's oldest stone structures and Buddhist architectural marvels.",
     price: 2200,
     maxGroupSize: 20,
@@ -409,7 +409,7 @@ export const attractions = [
   {
     id: "attr-19",
     title: "Swami Vivekananda Sarovar",
-    photo: "/src/assets/images/Attractions/swami-vivekananda-sarovar-raipur-chhattisgarh-1-attr-nearby.jpeg",
+    photo: "/assets/images/Attractions/swami-vivekananda-sarovar-raipur-chhattisgarh-1-attr-nearby.jpeg",
     desc: "Peaceful lake dedicated to Swami Vivekananda, ideal for meditation and spiritual reflection. This serene water body offers tranquility and inspiration, perfect for those seeking inner peace and contemplation.",
     price: 1700,
     maxGroupSize: 15,
@@ -431,7 +431,7 @@ export const attractions = [
   {
     id: "attr-20",
     title: "Taj Mahal",
-    photo: "/src/assets/images/Attractions/taj-mahal-agra-uttar-pradesh-1-attr-nearby.jpeg",
+    photo: "/assets/images/Attractions/taj-mahal-agra-uttar-pradesh-1-attr-nearby.jpeg",
     desc: "Eternal symbol of love and one of the Seven Wonders of the World. Built by Emperor Shah Jahan as a mausoleum for his beloved wife Mumtaz, this ivory-white marble masterpiece represents the pinnacle of Mughal architecture.",
     price: 3000,
     maxGroupSize: 25,
@@ -458,7 +458,7 @@ export const attractions = [
   {
     id: "attr-5",
     title: "Brahma Sarovar",
-    photo: "/src/assets/images/Attractions/brahma-sarovar-kurukshetra-haryana-1-attr-nearby.jpeg",
+    photo: "/assets/images/Attractions/brahma-sarovar-kurukshetra-haryana-1-attr-nearby.jpeg",
     desc: "Sacred water tank associated with Lord Brahma, deeply linked to the epic Mahabharata battle. This holy site in Kurukshetra attracts pilgrims seeking spiritual purification and connection to ancient Indian heritage.",
     price: 1800,
     maxGroupSize: 20,
@@ -480,7 +480,7 @@ export const attractions = [
   {
     id: "attr-7",
     title: "Cherai Beach",
-    photo: "/src/assets/images/Attractions/cherai-beach-kochi-kerala-1-attr-nearby.jpeg",
+    photo: "/assets/images/Attractions/cherai-beach-kochi-kerala-1-attr-nearby.jpeg",
     desc: "Serene beach near Kochi with golden sands offering stunning backwater views. This pristine coastal destination combines the beauty of the Arabian Sea with Kerala's famous backwater landscapes.",
     price: 3500,
     maxGroupSize: 15,
@@ -502,7 +502,7 @@ export const attractions = [
   {
     id: "attr-8",
     title: "Chidiya Tapu",
-    photo: "/src/assets/images/Attractions/chidiya-tapu-port-blair-andaman-nicobar-island-1-attr-nearby.jpeg",
+    photo: "/assets/images/Attractions/chidiya-tapu-port-blair-andaman-nicobar-island-1-attr-nearby.jpeg",
     desc: "Paradise for bird watchers with spectacular sunset views in the Andaman Islands. This pristine location offers incredible biodiversity and untouched island wilderness experiences.",
     price: 4200,
     maxGroupSize: 10,
@@ -524,7 +524,7 @@ export const attractions = [
   {
     id: "attr-10",
     title: "Dwarkadhish Temple",
-    photo: "/src/assets/images/Attractions/dwarkadish-demple-01-attr-nearby.jpeg",
+    photo: "/assets/images/Attractions/dwarkadish-demple-01-attr-nearby.jpeg",
     desc: "Sacred temple dedicated to Lord Krishna and one of the four Char Dham pilgrimage sites. This ancient temple stands as a testament to devotion and spiritual significance in Hindu tradition.",
     price: 2800,
     maxGroupSize: 20,
@@ -546,7 +546,7 @@ export const attractions = [
   {
     id: "attr-11",
     title: "Dzukou Valley",
-    photo: "/src/assets/images/Attractions/dzukou-valley-kohima-nagaland-1-attr-nearby.jpeg",
+    photo: "/assets/images/Attractions/dzukou-valley-kohima-nagaland-1-attr-nearby.jpeg",
     desc: "Valley of flowers with seasonal blooms, popular trekking destination in Nagaland. This pristine valley offers breathtaking landscapes and unique flora found nowhere else in India.",
     price: 3800,
     maxGroupSize: 12,

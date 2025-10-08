@@ -52,7 +52,7 @@ const Home = () => {
     {
       id: "attr-1",
       name: "Shore Temple Mamallapuram",
-      image: "/src/assets/images/Attractions/1-shore-temple-mamallapuram-2-attr-nearby.jpeg",
+      image: "/assets/images/Attractions/1-shore-temple-mamallapuram-2-attr-nearby.jpeg",
       description: "Ancient rock-cut temples showcasing magnificent Pallava architecture.\nBuilt along the scenic Bay of Bengal coastline.",
       shortDesc: "Ancient Pallava temples\nby the beautiful Bay of Bengal",
       location: "Mamallapuram, Tamil Nadu",
@@ -63,7 +63,7 @@ const Home = () => {
     {
       id: "attr-2",
       name: "Golden Temple",
-      image: "/src/assets/images/Attractions/1-sri-harmandir-sahib-(golden-temple)-amritsar-punjab-attr-nearby.jpeg",
+      image: "/assets/images/Attractions/1-sri-harmandir-sahib-(golden-temple)-amritsar-punjab-attr-nearby.jpeg",
       description: "The holiest shrine of Sikhism, covered in pure gold.\nSurrounded by the sacred Amrit Sarovar waters.",
       shortDesc: "Holiest Sikh shrine covered\nin pure golden architecture",
       location: "Amritsar, Punjab",
@@ -74,7 +74,7 @@ const Home = () => {
     {
       id: "attr-3",
       name: "Anjuna Beach",
-      image: "/src/assets/images/Attractions/anjuna-beach-goa-goa-anjuna-beach--goa-1-attr-nearby.jpeg",
+      image: "/assets/images/Attractions/anjuna-beach-goa-goa-anjuna-beach--goa-1-attr-nearby.jpeg",
       description: "Famous beach destination with vibrant nightlife scene.\nKnown for its scenic beauty and water sports.",
       shortDesc: "Vibrant beach destination\nwith nightlife and water sports",
       location: "Goa",
@@ -85,7 +85,7 @@ const Home = () => {
     {
       id: "attr-4",
       name: "Bangaram Island",
-      image: "/src/assets/images/Attractions/bangaram-kavaratti-lakshwadeep-1-attr-nearby.jpeg",
+      image: "/assets/images/Attractions/bangaram-kavaratti-lakshwadeep-1-attr-nearby.jpeg",
       description: "Pristine coral island paradise in beautiful Lakshadweep.\nFeaturing crystal clear turquoise waters.",
       shortDesc: "Pristine coral island paradise\nwith crystal clear waters",
       location: "Lakshadweep",
@@ -96,7 +96,7 @@ const Home = () => {
     {
       id: "attr-5",
       name: "Brahma Sarovar",
-      image: "/src/assets/images/Attractions/brahma-sarovar-kurukshetra-haryana-1-attr-nearby.jpeg",
+      image: "/assets/images/Attractions/brahma-sarovar-kurukshetra-haryana-1-attr-nearby.jpeg",
       description: "Sacred water tank associated with Lord Brahma.\nLinked to the epic Mahabharata battle.",
       shortDesc: "Sacred waters of Lord Brahma\nlinked to Mahabharata epic",
       location: "Kurukshetra, Haryana",
@@ -107,7 +107,7 @@ const Home = () => {
     {
       id: "attr-6",
       name: "Charminar",
-      image: "/src/assets/images/Attractions/charminar-hyderabad-1-attr-nearby.jpeg",
+      image: "/assets/images/Attractions/charminar-hyderabad-1-attr-nearby.jpeg",
       description: "Iconic monument and mosque built in 1591.\nSymbol of historic Hyderabad city.",
       shortDesc: "Historic 1591 monument\nand symbol of Hyderabad",
       location: "Hyderabad, Telangana",
@@ -118,7 +118,7 @@ const Home = () => {
     {
       id: "attr-7",
       name: "Cherai Beach",
-      image: "/src/assets/images/Attractions/cherai-beach-kochi-kerala-1-attr-nearby.jpeg",
+      image: "/assets/images/Attractions/cherai-beach-kochi-kerala-1-attr-nearby.jpeg",
       description: "Serene beach near Kochi with golden sands.\nOffers stunning backwater views.",
       shortDesc: "Serene golden sand beach\nwith beautiful backwater views",
       location: "Kochi, Kerala",
@@ -129,7 +129,7 @@ const Home = () => {
     {
       id: "attr-8",
       name: "Chidiya Tapu",
-      image: "/src/assets/images/Attractions/chidiya-tapu-port-blair-andaman-nicobar-island-1-attr-nearby.jpeg",
+      image: "/assets/images/Attractions/chidiya-tapu-port-blair-andaman-nicobar-island-1-attr-nearby.jpeg",
       description: "Bird watching paradise at South Andaman Island.\nOffers spectacular sunset views.",
       shortDesc: "Bird watching paradise\nwith spectacular sunset views",
       location: "Andaman & Nicobar Islands",
@@ -140,7 +140,7 @@ const Home = () => {
     {
       id: "attr-10",
       name: "Dwarkadhish Temple",
-      image: "/src/assets/images/Attractions/dwarkadish-demple-01-attr-nearby.jpeg",
+      image: "/assets/images/Attractions/dwarkadish-demple-01-attr-nearby.jpeg",
       description: "Sacred temple dedicated to Lord Krishna.\nOne of the four Char Dham pilgrimage sites.",
       shortDesc: "Sacred Krishna temple\nand Char Dham pilgrimage site",
       location: "Dwarka, Gujarat",
@@ -151,7 +151,7 @@ const Home = () => {
     {
       id: "attr-11",
       name: "Dzukou Valley",
-      image: "/src/assets/images/Attractions/dzukou-valley-kohima-nagaland-1-attr-nearby.jpeg",
+      image: "/assets/images/Attractions/dzukou-valley-kohima-nagaland-1-attr-nearby.jpeg",
       description: "Valley of flowers with seasonal blooms.\nPopular trekking destination in Nagaland.",
       shortDesc: "Valley of seasonal flowers\nwith amazing trekking trails",
       location: "Nagaland",
@@ -162,7 +162,7 @@ const Home = () => {
     {
       id: "attr-9",
       name: "Gateway of India",
-      image: "/src/assets/images/Attractions/gateway-of-india-mumbai-maharashtra-1-attr-nearby.jpeg",
+      image: "/assets/images/Attractions/gateway-of-india-mumbai-maharashtra-1-attr-nearby.jpeg",
       description: "Iconic arch monument overlooking Arabian Sea.\nHistoric symbol of Mumbai city.",
       shortDesc: "Iconic Mumbai landmark\noverlooking the Arabian Sea",
       location: "Mumbai, Maharashtra",
@@ -173,7 +173,7 @@ const Home = () => {
     {
       id: "attr-12",
       name: "Har Ki Pauri",
-      image: "/src/assets/images/Attractions/har-ki-pauri-haridwar1-attr-nearby.jpeg",
+      image: "/assets/images/Attractions/har-ki-pauri-haridwar1-attr-nearby.jpeg",
       description: "Sacred ghat on the holy Ganges river.\nFamous for evening aarti ceremonies.",
       shortDesc: "Sacred Ganga ghat with\nbeautiful evening aarti",
       location: "Haridwar, Uttarakhand",
@@ -184,7 +184,7 @@ const Home = () => {
     {
       id: "attr-13",
       name: "Hawa Mahal",
-      image: "/src/assets/images/Attractions/hawa-mahal-jaipur-rajasthan-1-attr-nearby.jpeg",
+      image: "/assets/images/Attractions/hawa-mahal-jaipur-rajasthan-1-attr-nearby.jpeg",
       description: "Palace of Winds with intricate lattice work.\nFeatures 953 beautifully carved windows.",
       shortDesc: "Palace of Winds with\n953 carved windows",
       location: "Jaipur, Rajasthan",
@@ -195,7 +195,7 @@ const Home = () => {
     {
       id: "attr-14",
       name: "Kamakhya Temple",
-      image: "/src/assets/images/Attractions/kamakhya-temple-dispur-assam-1-attr-nearby.jpeg",
+      image: "/assets/images/Attractions/kamakhya-temple-dispur-assam-1-attr-nearby.jpeg",
       description: "One of the oldest Shakti Peethas in India.\nDedicated to Goddess Kamakhya.",
       shortDesc: "Ancient Shakti Peetha\ndedicated to Goddess Kamakhya",
       location: "Guwahati, Assam",
@@ -206,7 +206,7 @@ const Home = () => {
     {
       id: "attr-15",
       name: "Mahabodhi Temple",
-      image: "/src/assets/images/Attractions/mahabodhi-temple-gaya-bihar-1-attr-nearby.jpeg",
+      image: "/assets/images/Attractions/mahabodhi-temple-gaya-bihar-1-attr-nearby.jpeg",
       description: "Sacred Buddhist temple where Buddha attained enlightenment.\nHome to the sacred Bodhi tree.",
       shortDesc: "Where Buddha attained\nenlightenment under Bodhi tree",
       location: "Bodh Gaya, Bihar",
@@ -217,7 +217,7 @@ const Home = () => {
     {
       id: "attr-16",
       name: "Naida Caves",
-      image: "/src/assets/images/Attractions/naida-caves-diu-daman-&-diu-1-attr-nearby.jpeg",
+      image: "/assets/images/Attractions/naida-caves-diu-daman-&-diu-1-attr-nearby.jpeg",
       description: "Mysterious network of caves formed by water erosion.\nPerfect spot for photography enthusiasts.",
       shortDesc: "Mysterious water-carved caves\nperfect for photography",
       location: "Diu, Daman & Diu",
@@ -228,7 +228,7 @@ const Home = () => {
     {
       id: "attr-17",
       name: "Red Fort",
-      image: "/src/assets/images/Attractions/red-fort-delhi-attr-nearby.jpeg",
+      image: "/assets/images/Attractions/red-fort-delhi-attr-nearby.jpeg",
       description: "Magnificent Mughal fortress and UNESCO World Heritage Site.\nSymbol of India's rich history.",
       shortDesc: "Magnificent Mughal fortress\nand UNESCO heritage site",
       location: "Delhi",
@@ -239,7 +239,7 @@ const Home = () => {
     {
       id: "attr-18",
       name: "Sanchi Stupa",
-      image: "/src/assets/images/Attractions/sanchi-stupa-bhopal-madhya-pradesh-1-attr-nearby.jpeg",
+      image: "/assets/images/Attractions/sanchi-stupa-bhopal-madhya-pradesh-1-attr-nearby.jpeg",
       description: "Ancient Buddhist complex with hemispherical stone structures.\nBuilt by Emperor Ashoka.",
       shortDesc: "Ancient Buddhist stupas\nbuilt by Emperor Ashoka",
       location: "Sanchi, Madhya Pradesh",
@@ -250,7 +250,7 @@ const Home = () => {
     {
       id: "attr-19",
       name: "Swami Vivekananda Sarovar",
-      image: "/src/assets/images/Attractions/swami-vivekananda-sarovar-raipur-chhattisgarh-1-attr-nearby.jpeg",
+      image: "/assets/images/Attractions/swami-vivekananda-sarovar-raipur-chhattisgarh-1-attr-nearby.jpeg",
       description: "Peaceful lake dedicated to Swami Vivekananda.\nIdeal for meditation and spiritual reflection.",
       shortDesc: "Peaceful meditation lake\ndedicated to Swami Vivekananda",
       location: "Raipur, Chhattisgarh",
@@ -261,7 +261,7 @@ const Home = () => {
     {
       id: "attr-20",
       name: "Taj Mahal",
-      image: "/src/assets/images/Attractions/taj-mahal-agra-uttar-pradesh-1-attr-nearby.jpeg",
+      image: "/assets/images/Attractions/taj-mahal-agra-uttar-pradesh-1-attr-nearby.jpeg",
       description: "Eternal symbol of love and one of Seven Wonders.\nBuilt by Emperor Shah Jahan.",
       shortDesc: "Eternal symbol of love\nand Wonder of the World",
       location: "Agra, Uttar Pradesh",
