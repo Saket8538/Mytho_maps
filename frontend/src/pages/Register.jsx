@@ -13,7 +13,7 @@ const Register = () => {
     username: "",
     email: "",
     password: "",
-    photo: "",
+    photo: "https://cdn-icons-png.flaticon.com/512/149/149071.png", // Default avatar
     role: "user",
   });
 
@@ -23,7 +23,7 @@ const Register = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // setIsLoading(true)
+    setIsLoading(true)
     try {
       const response = await fetch(`${BASE_URL}/auth/register`, {
         method: "POST",
@@ -35,14 +35,16 @@ const Register = () => {
       const { message } = await response.json();
 
       if (response.ok) {
-        // console.log('User registered successfully:', message);
         toast.success(message);
+        setIsLoading(false);
         navigate("/login");
       } else {
         toast.error(message);
+        setIsLoading(false);
       }
     } catch (err) {
       toast.error("Server not responding");
+      setIsLoading(false);
     }
   };
 
