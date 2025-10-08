@@ -18,8 +18,9 @@ build/
 out/
 
 # Large media files (use CDN or external storage)
-*.mp4
-frontend/src/assets/videos/
+# Note: Small videos (< 50MB) are now included
+# *.mp4
+# frontend/src/assets/videos/
 
 # IDE files
 .vscode/
