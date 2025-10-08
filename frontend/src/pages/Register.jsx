@@ -23,8 +23,15 @@ const Register = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setIsLoading(true)
+    setIsLoading(true);
+    
     try {
+      console.log("Attempting registration with:", { 
+        username: formData.username, 
+        email: formData.email 
+      });
+      console.log("API URL:", `${BASE_URL}/auth/register`);
+      
       const response = await fetch(`${BASE_URL}/auth/register`, {
         method: "POST",
         headers: {
@@ -32,18 +39,21 @@ const Register = () => {
         },
         body: JSON.stringify(formData),
       });
-      const { message } = await response.json();
+      
+      const data = await response.json();
+      console.log("Response:", data);
 
       if (response.ok) {
-        toast.success(message);
+        toast.success(data.message || "Registration successful!");
         setIsLoading(false);
         navigate("/login");
       } else {
-        toast.error(message);
+        toast.error(data.message || "Registration failed");
         setIsLoading(false);
       }
     } catch (err) {
-      toast.error("Server not responding");
+      console.error("Registration error:", err);
+      toast.error(`Server error: ${err.message || "Server not responding"}`);
       setIsLoading(false);
     }
   };

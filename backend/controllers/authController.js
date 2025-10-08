@@ -5,10 +5,24 @@ import jwt from "jsonwebtoken";
 const registerUser = async (req, res) => {
   try {
     const { username, email, password, photo } = req.body;
+    
+    // Validate required fields
+    if (!username || !email || !password) {
+      return res.status(400).json({ 
+        message: "Please provide username, email, and password" 
+      });
+    }
+
     // Check if the email is already registered
     const existingUser = await User.findOne({ email });
     if (existingUser) {
       return res.status(400).json({ message: "Email is already registered" });
+    }
+
+    // Check if username is already taken
+    const existingUsername = await User.findOne({ username });
+    if (existingUsername) {
+      return res.status(400).json({ message: "Username is already taken" });
     }
 
     // Hash the password
@@ -21,13 +35,26 @@ const registerUser = async (req, res) => {
       email,
       password: hashedPassword,
       photo: photo || "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+      role: "user"
     });
     await newUser.save();
 
     res.status(201).json({ message: "User registered successfully" });
   } catch (error) {
-    console.error(error);
-    res.status(500).json({ message: "Internal Server Error" });
+    console.error("Registration Error:", error);
+    
+    // Handle specific MongoDB errors
+    if (error.code === 11000) {
+      const field = Object.keys(error.keyPattern)[0];
+      return res.status(400).json({ 
+        message: `${field.charAt(0).toUpperCase() + field.slice(1)} already exists` 
+      });
+    }
+    
+    res.status(500).json({ 
+      message: "Internal Server Error",
+      error: process.env.NODE_ENV === 'development' ? error.message : undefined
+    });
   }
 };
 
