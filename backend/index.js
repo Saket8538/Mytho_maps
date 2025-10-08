@@ -23,16 +23,23 @@ const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:5174",
   "http://localhost:5178",
-  // For monorepo deployment, same domain
+  // Add your actual Vercel domain here
   "https://mythomaps.vercel.app",
-  // Add any other domains you might use
+  "https://mytho-maps.vercel.app",
+  // Allow any vercel.app subdomain for preview deployments
 ];
+
 app.use(
   cors({
     origin: function (origin, callback) {
-      if (!origin || allowedOrigins.includes(origin)) {
+      // Allow requests with no origin (like mobile apps or curl)
+      if (!origin) return callback(null, true);
+      
+      // Check if origin is allowed or is a vercel.app domain
+      if (allowedOrigins.includes(origin) || origin.endsWith('.vercel.app')) {
         callback(null, true);
       } else {
+        console.log('CORS blocked origin:', origin);
         callback(new Error("Not allowed by CORS"));
       }
     },
@@ -80,6 +87,16 @@ app.use("*", (req, res) => {
     error: "Route not found",
     message: `The route ${req.originalUrl} does not exist`,
     availableRoutes: ["/", "/api/health", "/api/auth", "/api/user", "/api/tour", "/api/review", "/api/booking"]
+  });
+});
+
+// Global error handler
+app.use((err, req, res, next) => {
+  console.error('Error:', err);
+  res.status(500).json({
+    error: "Internal Server Error",
+    message: err.message,
+    ...(process.env.NODE_ENV !== 'production' && { stack: err.stack })
   });
 });
 
