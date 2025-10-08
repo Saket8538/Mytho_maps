@@ -15,12 +15,12 @@ const registerUser = async (req, res) => {
     const salt = await bcryptjs.genSalt(10);
     const hashedPassword = await bcryptjs.hash(password, salt);
 
-    // Create a new user
+    // Create a new user with default photo if not provided
     const newUser = new User({
       username,
       email,
       password: hashedPassword,
-      photo,
+      photo: photo || "https://cdn-icons-png.flaticon.com/512/149/149071.png",
     });
     await newUser.save();
 

@@ -6,7 +6,7 @@ export const itineraries = [
     destination: "Jalandhar",
     region: "Punjab",
     duration: "2 Days",
-    image: "/src/assets/images/itineraries/nurmahal-jalandhar-punjab-tri-hero.jpeg",
+    image: "/assets/images/itineraries/nurmahal-jalandhar-punjab-tri-hero.jpeg",
     description: "Embark on a cultural journey through Jalandhar, the heart of Punjab, where ancient traditions meet modern vibrancy. Experience the rich Sikh heritage, magnificent gurdwaras, and vibrant local markets that showcase Punjab's authentic culture.",
     highlights: ["Historic Gurdwaras", "Punjabi Culture", "Local Markets", "Traditional Cuisine"],
     journey: {
@@ -23,7 +23,7 @@ export const itineraries = [
     destination: "Ayodhya",
     region: "Uttar Pradesh",
     duration: "2 Days",
-    image: "/src/assets/images/itineraries/kanak-bhawan-ayodhya-uttar-pradesh-tri-hero-1.jpeg",
+    image: "/assets/images/itineraries/kanak-bhawan-ayodhya-uttar-pradesh-tri-hero-1.jpeg",
     description: "Discover the birthplace of Lord Rama in this deeply spiritual journey through Ayodhya. Visit the newly constructed Ram Mandir, ancient temples, and sacred sites that hold immense significance in Hindu mythology and history.",
     highlights: ["Ram Mandir", "Hanuman Garhi", "Kanak Bhawan", "Sarayu River Aarti"],
     journey: {
@@ -40,7 +40,7 @@ export const itineraries = [
     destination: "Tirupati",
     region: "Andhra Pradesh", 
     duration: "2 Days",
-    image: "/src/assets/images/itineraries/1-padmavati-temple-tirupati-andhra-pradesh-tri-hero.jpeg",
+    image: "/assets/images/itineraries/1-padmavati-temple-tirupati-andhra-pradesh-tri-hero.jpeg",
     description: "Experience the divine energy of Lord Venkateswara at one of India's most visited pilgrimage sites. Journey through the sacred hills of Tirumala and discover the spiritual magnificence that attracts millions of devotees annually.",
     highlights: ["Tirumala Temple", "Padmavathi Temple", "Sri Venkateswara Museum", "Spiritual Discourses"],
     journey: {
@@ -57,7 +57,7 @@ export const itineraries = [
     destination: "Ajmer",
     region: "Rajasthan",
     duration: "2 Days", 
-    image: "/src/assets/images/itineraries/taragarh-fort-ajmer-trip-hero.jpeg",
+    image: "/assets/images/itineraries/taragarh-fort-ajmer-trip-hero.jpeg",
     description: "Find peace and serenity in Ajmer, home to the revered Ajmer Sharif Dargah. This spiritual retreat combines Sufi mysticism with Rajasthani heritage, offering a unique blend of Islamic and Hindu cultural experiences.",
     highlights: ["Ajmer Sharif Dargah", "Taragarh Fort", "Ana Sagar Lake", "Sufi Music"],
     journey: {
@@ -74,7 +74,7 @@ export const itineraries = [
     destination: "Vijayapura",
     region: "Karnataka",
     duration: "2 Days",
-    image: "/src/assets/images/itineraries/gol-gumbaz-bijapur-tri-hero.jpeg",
+    image: "/assets/images/itineraries/gol-gumbaz-bijapur-tri-hero.jpeg",
     description: "Explore the architectural wonders of the Adil Shahi dynasty in Vijayapura (formerly Bijapur). Marvel at the acoustic marvel of Gol Gumbaz and discover Indo-Islamic architecture at its finest in this historical gem.",
     highlights: ["Gol Gumbaz", "Ibrahim Rauza", "Bara Kaman", "Malik-e-Maidan"],
     journey: {
@@ -91,7 +91,7 @@ export const itineraries = [
     destination: "Amritsar",
     region: "Punjab",
     duration: "2 Days",
-    image: "/src/assets/images/itineraries/golden-temple-amritsar-punjab-tri-hero.jpeg",
+    image: "/assets/images/itineraries/golden-temple-amritsar-punjab-tri-hero.jpeg",
     description: "Experience the spiritual heart of Sikhism at the magnificent Golden Temple. Participate in the langar tradition, witness the evening palki ceremony, and feel the divine energy of this holiest Sikh shrine covered in pure gold.",
     highlights: ["Golden Temple", "Langar Hall", "Jallianwala Bagh", "Wagah Border"],
     journey: {
@@ -108,7 +108,7 @@ export const itineraries = [
     destination: "Gulmarg",
     region: "Jammu & Kashmir",
     duration: "3 Days",
-    image: "/src/assets/images/itineraries/gulmarg-meadows-srinagar-jammu-and-kashmir-tri-hero-2.jpeg",
+    image: "/assets/images/itineraries/gulmarg-meadows-srinagar-jammu-and-kashmir-tri-hero-2.jpeg",
     description: "Discover the 'Meadow of Flowers' in Kashmir's pristine Gulmarg. Experience the world's second-highest operating cable car, pristine alpine meadows, and breathtaking Himalayan vistas in this paradise on earth.",
     highlights: ["Gondola Cable Car", "Alpine Meadows", "Himalayan Views", "Adventure Sports"],
     journey: {
@@ -126,7 +126,7 @@ export const itineraries = [
     destination: "Madurai", 
     region: "Tamil Nadu",
     duration: "2 Days",
-    image: "/src/assets/images/itineraries/meenakshi-amman-temple-madurai-tamil-nadu-tri-hero.jpeg",
+    image: "/assets/images/itineraries/meenakshi-amman-temple-madurai-tamil-nadu-tri-hero.jpeg",
     description: "Marvel at the architectural splendor of the Meenakshi Amman Temple with its towering gopurams and intricate sculptures. Experience Tamil Nadu's rich Dravidian heritage and witness age-old temple traditions in this cultural capital.",
     highlights: ["Meenakshi Temple", "Thousand Pillar Hall", "Temple Ceremonies", "Dravidian Architecture"],
     journey: {
@@ -143,7 +143,7 @@ export const itineraries = [
     destination: "Mysuru",
     region: "Karnataka", 
     duration: "2 Days",
-    image: "/src/assets/images/itineraries/sri-chamundeshwari-devi-temple-mysuru-karnataka-tri-hero.jpeg",
+    image: "/assets/images/itineraries/sri-chamundeshwari-devi-temple-mysuru-karnataka-tri-hero.jpeg",
     description: "Step into the royal legacy of the Wodeyar dynasty in Mysuru. Explore magnificent palaces, beautiful gardens, and sacred temples while experiencing the refined culture of this former princely state.",
     highlights: ["Mysore Palace", "Chamundi Hills", "Brindavan Gardens", "Royal Heritage"],
     journey: {
@@ -160,7 +160,7 @@ export const itineraries = [
     destination: "Anjuna", 
     region: "Goa",
     duration: "3 Days",
-    image: "/src/assets/images/itineraries/anjuna-beach-goa-goa-1-tri-hero.jpeg",
+    image: "/assets/images/itineraries/anjuna-beach-goa-goa-1-tri-hero.jpeg",
     description: "Relax on the golden sands of Anjuna Beach and experience Goa's unique blend of Portuguese heritage and Indian culture. Enjoy beach activities, explore local markets, and savor authentic Goan cuisine.",
     highlights: ["Anjuna Beach", "Flea Market", "Portuguese Architecture", "Goan Cuisine"],
     journey: {
@@ -173,3 +173,4 @@ export const itineraries = [
     category: "Adventure"
   }
 ];
+

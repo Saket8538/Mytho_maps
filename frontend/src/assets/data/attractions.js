@@ -566,3 +566,6 @@ export const attractions = [
     highlights: ["Valley of Flowers", "Trekking", "Natural Beauty"]
   }
 ];
+
+
+
